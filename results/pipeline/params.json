@@ -1,0 +1,14 @@
+{
+  "fov_margin": 3,
+  "median_size": 3,
+  "tophat_radii": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "line_length": 15,
+  "kept_fraction": 0.12,
+  "seed_fraction": 0.09,
+  "min_area": 50
+}

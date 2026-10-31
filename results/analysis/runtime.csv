@@ -1,0 +1,2 @@
+seconds per image,image size,line openings share,hysteresis labelling ms,hysteresis reconstruction ms,hysteresis speed-up,cpu,python
+0.647,512 x 512,0.679,4.299,28.772,6.693,Apple M1 Max,3.11.15

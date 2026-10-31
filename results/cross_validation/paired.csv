@@ -1,0 +1,2 @@
+images,pipeline better,mean difference,min difference,max difference,wilcoxon p,sign test p,covered: pipeline better,covered: mean difference,covered: wilcoxon p
+10,0,-0.0966,-0.1209,-0.0637,0.0020,0.0020,0,-0.1037,0.0020

@@ -1,0 +1,16 @@
+method,image,precision,course recall,covered recall,course f1,covered f1,length ratio
+Morphological pipeline,02,0.7976,0.8336,0.8247,0.8152,0.8109,1.0649
+Morphological pipeline,03,0.8763,0.7205,0.7127,0.7908,0.7861,1.0392
+Morphological pipeline,32,0.8675,0.7342,0.7335,0.7953,0.7949,1.0038
+Morphological pipeline,37,0.7539,0.8026,0.7981,0.7775,0.7754,1.0288
+Morphological pipeline,48,0.7382,0.8200,0.8118,0.7769,0.7732,1.0562
+Frangi vesselness,02,0.6644,0.6765,0.5738,0.6704,0.6158,1.5531
+Frangi vesselness,03,0.6902,0.6021,0.5125,0.6431,0.5882,1.4392
+Frangi vesselness,32,0.7562,0.6396,0.5819,0.6931,0.6577,1.2752
+Frangi vesselness,37,0.5323,0.6339,0.5817,0.5786,0.5559,1.2451
+Frangi vesselness,48,0.5702,0.6811,0.6057,0.6207,0.5874,1.3902
+Global threshold,02,0.3531,0.5107,0.5277,0.4175,0.4231,0.9343
+Global threshold,03,0.2825,0.4601,0.5603,0.3500,0.3756,0.6690
+Global threshold,32,0.3922,0.5646,0.6014,0.4629,0.4748,0.8598
+Global threshold,37,0.2509,0.5808,0.6636,0.3504,0.3641,0.7022
+Global threshold,48,0.2153,0.7134,0.7604,0.3308,0.3356,0.7842

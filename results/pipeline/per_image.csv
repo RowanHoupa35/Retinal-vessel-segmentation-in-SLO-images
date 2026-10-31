@@ -1,0 +1,131 @@
+image,precision,recall,f1,dice,kind,step,split,group
+01,0.2692,0.6549,0.3816,0.2766,reference,Global threshold,tune,OSC
+08,0.3267,0.7007,0.4456,0.3307,reference,Global threshold,tune,OSN
+21,0.2728,0.5270,0.3595,0.2729,reference,Global threshold,tune,OSC
+26,0.2960,0.6159,0.3998,0.2836,reference,Global threshold,tune,ODC
+28,0.3072,0.5843,0.4027,0.2646,reference,Global threshold,tune,ODN
+02,0.3531,0.5107,0.4175,0.3000,reference,Global threshold,test,OSC
+03,0.2825,0.4601,0.3500,0.2571,reference,Global threshold,test,OSN
+32,0.3922,0.5646,0.4629,0.3699,reference,Global threshold,test,ODC
+37,0.2509,0.5808,0.3504,0.2201,reference,Global threshold,test,ODN
+48,0.2153,0.7134,0.3308,0.2410,reference,Global threshold,test,OSN
+01,0.5840,0.6165,0.5998,0.4673,reference,Frangi vesselness,tune,OSC
+08,0.7895,0.5857,0.6725,0.5164,reference,Frangi vesselness,tune,OSN
+21,0.5715,0.5112,0.5396,0.4363,reference,Frangi vesselness,tune,OSC
+26,0.5718,0.5535,0.5625,0.4696,reference,Frangi vesselness,tune,ODC
+28,0.6386,0.5915,0.6142,0.4781,reference,Frangi vesselness,tune,ODN
+02,0.6644,0.6765,0.6704,0.5401,reference,Frangi vesselness,test,OSC
+03,0.6902,0.6021,0.6431,0.4962,reference,Frangi vesselness,test,OSN
+32,0.7562,0.6396,0.6931,0.5902,reference,Frangi vesselness,test,ODC
+37,0.5323,0.6339,0.5786,0.4995,reference,Frangi vesselness,test,ODN
+48,0.5702,0.6811,0.6207,0.5137,reference,Frangi vesselness,test,OSN
+01,0.5932,0.5991,0.5962,0.5447,cumulative,Black top-hat,tune,OSC
+08,0.8378,0.5673,0.6765,0.6349,cumulative,Black top-hat,tune,OSN
+21,0.5985,0.4935,0.5410,0.5024,cumulative,Black top-hat,tune,OSC
+26,0.6023,0.5424,0.5708,0.5460,cumulative,Black top-hat,tune,ODC
+28,0.6211,0.5568,0.5872,0.5481,cumulative,Black top-hat,tune,ODN
+02,0.7323,0.6743,0.7021,0.6449,cumulative,Black top-hat,test,OSC
+03,0.7632,0.5664,0.6502,0.5872,cumulative,Black top-hat,test,OSN
+32,0.7415,0.6072,0.6677,0.6353,cumulative,Black top-hat,test,ODC
+37,0.5617,0.5939,0.5774,0.5664,cumulative,Black top-hat,test,ODN
+48,0.6091,0.7081,0.6548,0.6404,cumulative,Black top-hat,test,OSN
+01,0.6697,0.7093,0.6889,0.6582,cumulative,+ median filter,tune,OSC
+08,0.8724,0.6505,0.7452,0.7396,cumulative,+ median filter,tune,OSN
+21,0.6607,0.6226,0.6411,0.6373,cumulative,+ median filter,tune,OSC
+26,0.7051,0.6769,0.6907,0.6715,cumulative,+ median filter,tune,ODC
+28,0.7282,0.6422,0.6825,0.6721,cumulative,+ median filter,tune,ODN
+02,0.6932,0.7835,0.7356,0.7099,cumulative,+ median filter,test,OSC
+03,0.7106,0.6922,0.7013,0.6979,cumulative,+ median filter,test,OSN
+32,0.8068,0.6372,0.7121,0.6682,cumulative,+ median filter,test,ODC
+37,0.6195,0.7599,0.6825,0.6781,cumulative,+ median filter,test,ODN
+48,0.6072,0.7823,0.6837,0.6983,cumulative,+ median filter,test,OSN
+01,0.8540,0.7060,0.7730,0.7076,cumulative,+ line openings,tune,OSC
+08,0.9256,0.6539,0.7664,0.7266,cumulative,+ line openings,tune,OSN
+21,0.8196,0.5720,0.6738,0.6435,cumulative,+ line openings,tune,OSC
+26,0.8444,0.6377,0.7266,0.6964,cumulative,+ line openings,tune,ODC
+28,0.8411,0.6383,0.7258,0.7019,cumulative,+ line openings,tune,ODN
+02,0.8690,0.7098,0.7814,0.7034,cumulative,+ line openings,test,OSC
+03,0.8822,0.6429,0.7438,0.7038,cumulative,+ line openings,test,OSN
+32,0.7972,0.6305,0.7041,0.6725,cumulative,+ line openings,test,ODC
+37,0.8621,0.7312,0.7912,0.7496,cumulative,+ line openings,test,ODN
+48,0.8723,0.7557,0.8099,0.7626,cumulative,+ line openings,test,OSN
+01,0.7642,0.7647,0.7644,0.7088,cumulative,+ multi-scale,tune,OSC
+08,0.9483,0.6507,0.7718,0.7197,cumulative,+ multi-scale,tune,OSN
+21,0.7945,0.6429,0.7107,0.6702,cumulative,+ multi-scale,tune,OSC
+26,0.7993,0.6762,0.7326,0.7052,cumulative,+ multi-scale,tune,ODC
+28,0.8281,0.6885,0.7519,0.7107,cumulative,+ multi-scale,tune,ODN
+02,0.8373,0.7883,0.8121,0.7500,cumulative,+ multi-scale,test,OSC
+03,0.8831,0.6834,0.7705,0.7117,cumulative,+ multi-scale,test,OSN
+32,0.9064,0.6881,0.7823,0.7245,cumulative,+ multi-scale,test,ODC
+37,0.7745,0.7775,0.7760,0.7448,cumulative,+ multi-scale,test,ODN
+48,0.7761,0.7998,0.7878,0.7600,cumulative,+ multi-scale,test,OSN
+01,0.7388,0.7889,0.7630,0.7154,cumulative,+ hysteresis,tune,OSC
+08,0.9453,0.6880,0.7963,0.7613,cumulative,+ hysteresis,tune,OSN
+21,0.7602,0.6674,0.7108,0.6828,cumulative,+ hysteresis,tune,OSC
+26,0.7691,0.7066,0.7366,0.7142,cumulative,+ hysteresis,tune,ODC
+28,0.7816,0.7263,0.7530,0.7205,cumulative,+ hysteresis,tune,ODN
+02,0.7929,0.8249,0.8085,0.7596,cumulative,+ hysteresis,test,OSC
+03,0.8719,0.7177,0.7873,0.7421,cumulative,+ hysteresis,test,OSN
+32,0.8688,0.7274,0.7918,0.7287,cumulative,+ hysteresis,test,ODC
+37,0.7399,0.7992,0.7684,0.7463,cumulative,+ hysteresis,test,ODN
+48,0.7401,0.8138,0.7752,0.7597,cumulative,+ hysteresis,test,OSN
+01,0.7248,0.8009,0.7610,0.7158,cumulative,+ area opening,tune,OSC
+08,0.9458,0.6947,0.8011,0.7641,cumulative,+ area opening,tune,OSN
+21,0.7704,0.6721,0.7179,0.6866,cumulative,+ area opening,tune,OSC
+26,0.7675,0.7067,0.7359,0.7134,cumulative,+ area opening,tune,ODC
+28,0.7812,0.7334,0.7565,0.7220,cumulative,+ area opening,tune,ODN
+02,0.7976,0.8336,0.8152,0.7632,cumulative,+ area opening,test,OSC
+03,0.8763,0.7205,0.7908,0.7428,cumulative,+ area opening,test,OSN
+32,0.8675,0.7342,0.7953,0.7312,cumulative,+ area opening,test,ODC
+37,0.7539,0.8026,0.7775,0.7498,cumulative,+ area opening,test,ODN
+48,0.7382,0.8200,0.7769,0.7584,cumulative,+ area opening,test,OSN
+01,0.7110,0.7044,0.7077,0.6417,remove-one,without median filter,tune,OSC
+08,0.9581,0.6306,0.7606,0.6748,remove-one,without median filter,tune,OSN
+21,0.7266,0.5944,0.6539,0.5971,remove-one,without median filter,tune,OSC
+26,0.7387,0.6218,0.6752,0.6389,remove-one,without median filter,tune,ODC
+28,0.7792,0.6550,0.7117,0.6559,remove-one,without median filter,tune,ODN
+02,0.8474,0.7594,0.8010,0.7158,remove-one,without median filter,test,OSC
+03,0.8734,0.6569,0.7498,0.6695,remove-one,without median filter,test,OSN
+32,0.8875,0.6659,0.7609,0.7035,remove-one,without median filter,test,ODC
+37,0.7122,0.7266,0.7193,0.6954,remove-one,without median filter,test,ODN
+48,0.7947,0.7735,0.7840,0.7332,remove-one,without median filter,test,OSN
+01,0.7249,0.7165,0.7207,0.6622,remove-one,without line openings,tune,OSC
+08,0.8816,0.6958,0.7778,0.7439,remove-one,without line openings,tune,OSN
+21,0.7641,0.6098,0.6783,0.6370,remove-one,without line openings,tune,OSC
+26,0.8154,0.6440,0.7196,0.6793,remove-one,without line openings,tune,ODC
+28,0.7498,0.7022,0.7252,0.6897,remove-one,without line openings,tune,ODN
+02,0.8205,0.7902,0.8051,0.7404,remove-one,without line openings,test,OSC
+03,0.8528,0.6913,0.7636,0.7104,remove-one,without line openings,test,OSN
+32,0.8497,0.7245,0.7821,0.7303,remove-one,without line openings,test,ODC
+37,0.6900,0.7546,0.7208,0.6940,remove-one,without line openings,test,ODN
+48,0.8122,0.7749,0.7931,0.7356,remove-one,without line openings,test,OSN
+01,0.7585,0.7620,0.7603,0.7051,remove-one,single scale,tune,OSC
+08,0.9276,0.6703,0.7783,0.7236,remove-one,single scale,tune,OSN
+21,0.7304,0.6587,0.6927,0.6612,remove-one,single scale,tune,OSC
+26,0.7785,0.6847,0.7286,0.6968,remove-one,single scale,tune,ODC
+28,0.7890,0.6925,0.7376,0.7083,remove-one,single scale,tune,ODN
+02,0.7860,0.7853,0.7856,0.7221,remove-one,single scale,test,OSC
+03,0.8792,0.6846,0.7698,0.7069,remove-one,single scale,test,OSN
+32,0.8640,0.7010,0.7740,0.7202,remove-one,single scale,test,ODC
+37,0.8330,0.7704,0.8005,0.7536,remove-one,single scale,test,ODN
+48,0.6965,0.8176,0.7522,0.7459,remove-one,single scale,test,OSN
+01,0.7197,0.8011,0.7582,0.7146,remove-one,without hysteresis,tune,OSC
+08,0.9306,0.6983,0.7979,0.7625,remove-one,without hysteresis,tune,OSN
+21,0.7618,0.6751,0.7158,0.6852,remove-one,without hysteresis,tune,OSC
+26,0.7695,0.7132,0.7402,0.7164,remove-one,without hysteresis,tune,ODC
+28,0.7768,0.7334,0.7545,0.7213,remove-one,without hysteresis,tune,ODN
+02,0.7987,0.8387,0.8182,0.7650,remove-one,without hysteresis,test,OSC
+03,0.8750,0.7268,0.7941,0.7448,remove-one,without hysteresis,test,OSN
+32,0.8675,0.7342,0.7953,0.7312,remove-one,without hysteresis,test,ODC
+37,0.7461,0.8026,0.7734,0.7479,remove-one,without hysteresis,test,ODN
+48,0.7350,0.8250,0.7774,0.7593,remove-one,without hysteresis,test,OSN
+01,0.7388,0.7889,0.7630,0.7154,remove-one,without area opening,tune,OSC
+08,0.9453,0.6880,0.7963,0.7613,remove-one,without area opening,tune,OSN
+21,0.7602,0.6674,0.7108,0.6828,remove-one,without area opening,tune,OSC
+26,0.7691,0.7066,0.7366,0.7142,remove-one,without area opening,tune,ODC
+28,0.7816,0.7263,0.7530,0.7205,remove-one,without area opening,tune,ODN
+02,0.7929,0.8249,0.8085,0.7596,remove-one,without area opening,test,OSC
+03,0.8719,0.7177,0.7873,0.7421,remove-one,without area opening,test,OSN
+32,0.8688,0.7274,0.7918,0.7287,remove-one,without area opening,test,ODC
+37,0.7399,0.7992,0.7684,0.7463,remove-one,without area opening,test,ODN
+48,0.7401,0.8138,0.7752,0.7597,remove-one,without area opening,test,OSN

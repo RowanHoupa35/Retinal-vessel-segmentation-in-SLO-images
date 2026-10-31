@@ -1,0 +1,5 @@
+structure,pixels,median,q1,q3
+"annotated thin vessel, detected",5085,20.0,14.0,27.0
+"annotated thin vessel, missed",3801,8.0,5.0,13.0
+"detected, not annotated",4329,13.0,10.0,18.0
+background,590815,3.0,1.0,6.0

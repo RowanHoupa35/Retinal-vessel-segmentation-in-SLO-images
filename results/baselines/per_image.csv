@@ -1,0 +1,31 @@
+method,split,image,group,param,precision,recall,f1,dice
+threshold (course T=80),tune,01,OSC,80.0000,0.2675,0.6620,0.3810,0.2708
+threshold (course T=80),tune,08,OSN,80.0000,0.3264,0.7042,0.4461,0.3232
+threshold (course T=80),tune,21,OSC,80.0000,0.2715,0.5297,0.3590,0.2648
+threshold (course T=80),tune,26,ODC,80.0000,0.2896,0.6235,0.3956,0.2780
+threshold (course T=80),tune,28,ODN,80.0000,0.3104,0.5914,0.4072,0.2580
+threshold (course T=80),test,02,OSC,80.0000,0.3380,0.5153,0.4082,0.2907
+threshold (course T=80),test,03,OSN,80.0000,0.2792,0.4613,0.3479,0.2494
+threshold (course T=80),test,32,ODC,80.0000,0.3683,0.5722,0.4481,0.3585
+threshold (course T=80),test,37,ODN,80.0000,0.2486,0.5812,0.3483,0.2132
+threshold (course T=80),test,48,OSN,80.0000,0.2143,0.7197,0.3302,0.2365
+threshold (tuned),tune,01,OSC,80.0000,0.2675,0.6620,0.3810,0.2708
+threshold (tuned),tune,08,OSN,80.0000,0.3264,0.7042,0.4461,0.3232
+threshold (tuned),tune,21,OSC,80.0000,0.2715,0.5297,0.3590,0.2648
+threshold (tuned),tune,26,ODC,80.0000,0.2896,0.6235,0.3956,0.2780
+threshold (tuned),tune,28,ODN,80.0000,0.3104,0.5914,0.4072,0.2580
+threshold (tuned),test,02,OSC,80.0000,0.3380,0.5153,0.4082,0.2907
+threshold (tuned),test,03,OSN,80.0000,0.2792,0.4613,0.3479,0.2494
+threshold (tuned),test,32,ODC,80.0000,0.3683,0.5722,0.4481,0.3585
+threshold (tuned),test,37,ODN,80.0000,0.2486,0.5812,0.3483,0.2132
+threshold (tuned),test,48,OSN,80.0000,0.2143,0.7197,0.3302,0.2365
+frangi (tuned),tune,01,OSC,0.0700,0.5574,0.6130,0.5839,0.4580
+frangi (tuned),tune,08,OSN,0.0700,0.7455,0.5788,0.6517,0.5019
+frangi (tuned),tune,21,OSC,0.0700,0.5421,0.5070,0.5240,0.4282
+frangi (tuned),tune,26,ODC,0.0700,0.5454,0.5492,0.5473,0.4595
+frangi (tuned),tune,28,ODN,0.0700,0.6059,0.5860,0.5958,0.4680
+frangi (tuned),test,02,OSC,0.0700,0.6388,0.6758,0.6567,0.5349
+frangi (tuned),test,03,OSN,0.0700,0.6599,0.5994,0.6282,0.4879
+frangi (tuned),test,32,ODC,0.0700,0.7156,0.6330,0.6718,0.5744
+frangi (tuned),test,37,ODN,0.0700,0.5054,0.6279,0.5601,0.4888
+frangi (tuned),test,48,OSN,0.0700,0.5434,0.6752,0.6022,0.5023

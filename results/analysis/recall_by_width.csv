@@ -1,0 +1,16 @@
+method,width,centreline,covered,recall,share of centreline
+Morphological pipeline,1 px,4411,2310,0.5237,0.1503
+Morphological pipeline,2 px,4475,2775,0.6201,0.1525
+Morphological pipeline,3 px,9089,7291,0.8022,0.3098
+Morphological pipeline,4 px,7166,6382,0.8906,0.2442
+Morphological pipeline,≥ 5 px,4198,3845,0.9159,0.1431
+Frangi vesselness,1 px,4411,1973,0.4473,0.1503
+Frangi vesselness,2 px,4475,2307,0.5155,0.1525
+Frangi vesselness,3 px,9089,5885,0.6475,0.3098
+Frangi vesselness,4 px,7166,4586,0.6400,0.2442
+Frangi vesselness,≥ 5 px,4198,1935,0.4609,0.1431
+Global threshold,1 px,4411,1628,0.3691,0.1503
+Global threshold,2 px,4475,2212,0.4943,0.1525
+Global threshold,3 px,9089,6154,0.6771,0.3098
+Global threshold,4 px,7166,5001,0.6979,0.2442
+Global threshold,≥ 5 px,4198,3047,0.7258,0.1431
