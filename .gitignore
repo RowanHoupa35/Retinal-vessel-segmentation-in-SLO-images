@@ -20,6 +20,3 @@ results/cross_validation/segmentations/
 # Write-up kept private: the report and the script that writes its numbers
 report/
 scripts/export_report_data.py
-
-# Personal CV kept next to the project, not part of it (with its LaTeX build files)
-/cv.*
